@@ -94,6 +94,10 @@ public class TestController {
     public PageInfo showPageInfo(){
         return testService.getPageInfo();
     }
-
+    
+    @RequestMapping("/git")
+    public String testGit(){
+        return "update Success";
+    }
 
 }
