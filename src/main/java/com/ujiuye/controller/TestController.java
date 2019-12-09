@@ -100,4 +100,9 @@ public class TestController {
         return "update Success";
     }
 
+    @RequestMapping("/gitPushAgain")
+    public String pushAgain(){
+        return "push to git again success";
+    }
+
 }
